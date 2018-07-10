@@ -46,10 +46,12 @@ public class TC001_LoginSalesForce {
 		
 		//opening URL
 		BasicFunctions.openURL(driver, "https://test.salesforce.com/"); 
+		BasicFunctions.getScreenShots(driver, "OpenedURL");
 		
 		//Entering Details
 		BasicFunctions.enterText(driver, SalesForceLogin.username, "rajasingh.nadar@infosys.com.vmstdemo");
 		BasicFunctions.enterText(driver, SalesForceLogin.password, "Raja@1506$$$$$$");
+		BasicFunctions.getScreenShots(driver, "Enter Details");
 		
 		//Clicking Button
 		BasicFunctions.clickElement(driver, SalesForceLogin.loginbutton);
@@ -69,6 +71,8 @@ public class TC001_LoginSalesForce {
 			Assert.assertTrue(false);
 			
 		}
+		
+		BasicFunctions.getScreenShots(driver, "LoggedInPage");
 		
 	}
 	

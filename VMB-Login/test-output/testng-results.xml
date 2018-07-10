@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88906" started-at="2018-07-10T17:16:27Z" finished-at="2018-07-10T17:17:55Z">
+  <suite name="Default suite" duration-ms="82145" started-at="2018-07-10T18:37:41Z" finished-at="2018-07-10T18:39:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88906" started-at="2018-07-10T17:16:27Z" finished-at="2018-07-10T17:17:55Z">
+    <test name="Default test" duration-ms="82145" started-at="2018-07-10T18:37:41Z" finished-at="2018-07-10T18:39:03Z">
       <class name="com.vmb.testcases.TC001_LoginSalesForce">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="beforeTest" is-config="true" duration-ms="16598" started-at="2018-07-10T17:16:27Z" finished-at="2018-07-10T17:16:43Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="beforeTest" is-config="true" duration-ms="27694" started-at="2018-07-10T18:37:41Z" finished-at="2018-07-10T18:38:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginSuccessful()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="loginSuccessful" duration-ms="55928" started-at="2018-07-10T17:16:43Z" finished-at="2018-07-10T17:17:39Z">
+        <test-method status="PASS" signature="loginSuccessful()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="loginSuccessful" duration-ms="47585" started-at="2018-07-10T18:38:09Z" finished-at="2018-07-10T18:38:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessful -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="afterTest" is-config="true" duration-ms="16314" started-at="2018-07-10T17:17:39Z" finished-at="2018-07-10T17:17:55Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.vmb.testcases.TC001_LoginSalesForce@4d3167f4]" name="afterTest" is-config="true" duration-ms="6767" started-at="2018-07-10T18:38:56Z" finished-at="2018-07-10T18:39:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

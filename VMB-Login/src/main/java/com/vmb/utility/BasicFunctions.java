@@ -1,5 +1,10 @@
 package com.vmb.utility;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+
 /*
 Author : Raja
 Date : 03-07-2018
@@ -7,7 +12,10 @@ Description : Common functions which are used
 */
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
 public class BasicFunctions {
@@ -72,7 +80,19 @@ public class BasicFunctions {
 				
 	}
 	
+	//******************************************Screenshot*************************************************
 	
+	public static void getScreenShots (WebDriver ldriver, String screenshot_name) {
+		
+		try {
+				File src = ((TakesScreenshot)ldriver).getScreenshotAs(OutputType.FILE);
+				FileUtils.copyFile(src, new File("./ScreenShots/"+screenshot_name+".png"));
+		} 
+		catch (Exception e) {			
+			System.out.println(e.getMessage());			
+		} 
+				
+	}
 	
 	
 	
